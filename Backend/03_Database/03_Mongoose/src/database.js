@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // Importing the model (collection class) based on schema
 const UserCollection = require('../Models/users');
 
-const url = 'mongodb+srv://ayushh002:Anshuman%401104@codingclub.4tygwex.mongodb.net/backend';
+const url = 'mongodb+srv://ayushh002:userPassword@codingclub.4tygwex.mongodb.net/backend';
 
 async function main() {
     // Connect to the MongoDB cluster
@@ -34,3 +34,4 @@ async function main() {
 
 // Exporting the main function to be used in other modules (e.g., Express server)
 module.exports = main;
+
