@@ -11,7 +11,7 @@
    - In sharded clusters, data is partitioned across multiple servers (shards) for horizontal scaling (this facility is not available in MongoDB free plans).
 
 > In the setup phase, we created a MongoDB cluster on AWS and installed Compass, the graphical user interface for managing MongoDB databases. To connect Compass to our cluster, we use the following connection string:
- - `mongodb+srv://ayushh002:Anshuman@1104@codingclub.4tygwex.mongodb.net/`.
+ - `mongodb+srv://ayushh002:userPassword@codingclub.4tygwex.mongodb.net/`.
 
 > Once connected to the cluster, we created a new database named `backend` and a collection called `user`. We then proceed to insert documents into this collection.
 
@@ -20,5 +20,6 @@
 > MongoDb gives us advantage as it doesn't strictly follow a particular schema as any number and kind of field can be present in each document, unlike SQL databases.
 
 > Now, we will not insert documents one by one using MongoDB GUI, rather we will be using our backend to connect to our database and perform all of these operations from there. For that we need to install MongoDb driver: `npm i mongodb`. 
+
 
 > The MongoDB drivers allow Node Js applications to connect to MongoDB. The driver features asynchronous API to interact with MongoDB using promises or via traditional callbacks.
