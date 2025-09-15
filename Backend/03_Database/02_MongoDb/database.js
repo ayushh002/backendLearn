@@ -3,7 +3,7 @@ const { MongoClient } = require("mongodb");
 
 // url to connect to the cluster of databases
 // const url = 'mongodb+srv://ayushh002:Anshuman@1104@codingclub.4tygwex.mongodb.net/';
-const url = 'mongodb+srv://ayushh002:Anshuman%401104@codingclub.4tygwex.mongodb.net/';
+const url = 'mongodb+srv://ayushh002:userPassword@codingclub.4tygwex.mongodb.net/';
 
 // Making an object of mongoDb with the url
 const client = new MongoClient(url);
@@ -59,6 +59,7 @@ main()
 .then(console.log)            // Logs success message if all goes well
 .catch(console.error)         // Logs error if something goes wrong
 .finally(()=>client.close()); // Always closes MongoDB connection
+
 
 
 // refer database.md
