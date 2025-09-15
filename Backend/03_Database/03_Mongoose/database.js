@@ -3,7 +3,7 @@ const {Schema} = mongoose;
 
 // Url to connect to MongoDB cluster - includes the database name.
 // If the specified database doesn't exist, MongoDB will automatically create it.
-const url = 'mongodb+srv://ayushh002:Anshuman%401104@codingclub.4tygwex.mongodb.net/backend';
+const url = 'mongodb+srv://ayushh002:userPassword@codingclub.4tygwex.mongodb.net/backend';
 
 async function main() {
 
@@ -70,6 +70,7 @@ main()
 // And instead of using this database script directly for operations, we will
 // use an Express server (e.g., an `index.js` file inside a `src` folder) to
 // perform CRUD operations.
+
 
 
 // Mongoose is the name of folder inside Postman
